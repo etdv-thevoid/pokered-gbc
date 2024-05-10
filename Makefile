@@ -91,8 +91,20 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
+# Run `make` run with `GFX=#` to choose GFX
+# GFX=2: Gen 2 Graphics
+# GFX=1: Gen 1 Graphics
+# Default: Gen 2 Graphics
+ifeq ($(GFX),2)
+RGBASMFLAGS += -D _GEN_2_GRAPHICS
+else ifeq ($(GFX),1)
+RGBASMFLAGS +=
+else
+RGBASMFLAGS += -D _GEN_2_GRAPHICS
+endif
+
 $(pokered_obj):        RGBASMFLAGS += -D _RED
-$(pokeblue_obj):       RGBASMFLAGS += -D _BLUE
+$(pokeblue_obj):       RGBASMFLAGS += -D _BLUE 
 $(pokeblue_debug_obj): RGBASMFLAGS += -D _BLUE -D _DEBUG
 $(pokered_vc_obj):     RGBASMFLAGS += -D _RED -D _RED_VC
 $(pokeblue_vc_obj):    RGBASMFLAGS += -D _BLUE -D _BLUE_VC
@@ -141,11 +153,11 @@ pokered_vc_pad     = 0x00
 pokeblue_vc_pad    = 0x00
 pokeblue_debug_pad = 0xff
 
-pokered_opt        = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
-pokeblue_opt       = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pokeblue_debug_opt = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pokered_vc_opt     = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
-pokeblue_vc_opt    = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pokered_opt        = -Cjv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pokeblue_opt       = -Cjv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pokeblue_debug_opt = -Cjv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pokered_vc_opt     = -Cjv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pokeblue_vc_opt    = -Cjv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
 
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) -p $($*_pad) -d -m $*.map -n $*.sym -l layout.link -o $@ $(filter %.o,$^)
