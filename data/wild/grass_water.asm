@@ -1,17 +1,17 @@
 WildDataPointers:
 	table_width 2, WildDataPointers
-	dw NothingWildMons         ; PALLET_TOWN
-	dw NothingWildMons         ; VIRIDIAN_CITY
-	dw NothingWildMons         ; PEWTER_CITY
-	dw NothingWildMons         ; CERULEAN_CITY
-	dw NothingWildMons         ; LAVENDER_TOWN
-	dw NothingWildMons         ; VERMILION_CITY
-	dw NothingWildMons         ; CELADON_CITY
-	dw NothingWildMons         ; FUCHSIA_CITY
-	dw NothingWildMons         ; CINNABAR_ISLAND
-	dw NothingWildMons         ; INDIGO_PLATEAU
-	dw NothingWildMons         ; SAFFRON_CITY
-	dw NothingWildMons         ; unused
+	dw NoMons                  ; PALLET_TOWN
+	dw NoMons                  ; VIRIDIAN_CITY
+	dw NoMons                  ; PEWTER_CITY
+	dw NoMons                  ; CERULEAN_CITY
+	dw NoMons                  ; LAVENDER_TOWN
+	dw NoMons                  ; VERMILION_CITY
+	dw NoMons                  ; CELADON_CITY
+	dw NoMons                  ; FUCHSIA_CITY
+	dw NoMons                  ; CINNABAR_ISLAND
+	dw NoMons                  ; INDIGO_PLATEAU
+	dw NoMons                  ; SAFFRON_CITY
+	dw NoMons
 	dw Route1WildMons          ; ROUTE_1
 	dw Route2WildMons          ; ROUTE_2
 	dw Route3WildMons          ; ROUTE_3
@@ -30,118 +30,118 @@ WildDataPointers:
 	dw Route16WildMons         ; ROUTE_16
 	dw Route17WildMons         ; ROUTE_17
 	dw Route18WildMons         ; ROUTE_18
-	dw SeaRoutesWildMons       ; ROUTE_19
-	dw SeaRoutesWildMons       ; ROUTE_20
+	dw Route19WildMons         ; ROUTE_19
+	dw Route20WildMons         ; ROUTE_20
 	dw Route21WildMons         ; ROUTE_21
 	dw Route22WildMons         ; ROUTE_22
 	dw Route23WildMons         ; ROUTE_23
 	dw Route24WildMons         ; ROUTE_24
 	dw Route25WildMons         ; ROUTE_25
-	dw NothingWildMons         ; REDS_HOUSE_1F
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons                  ; REDS_HOUSE_1F
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw ViridianForestWildMons ; ViridianForest
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw MtMoon1FWildMons
 	dw MtMoonB1FWildMons
 	dw MtMoonB2FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw RockTunnel1FWildMons
 	dw PowerPlantWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw VictoryRoad1FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw PokemonTower1FWildMons
 	dw PokemonTower2FWildMons
 	dw PokemonTower3FWildMons
@@ -149,71 +149,71 @@ WildDataPointers:
 	dw PokemonTower5FWildMons
 	dw PokemonTower6FWildMons
 	dw PokemonTower7FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw SeafoamIslandsB1FWildMons
 	dw SeafoamIslandsB2FWildMons
 	dw SeafoamIslandsB3FWildMons
 	dw SeafoamIslandsB4FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
 	dw PokemonMansion1FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw SeafoamIslands1FWildMons
-	dw NothingWildMons
+	dw NoMons
 	dw VictoryRoad2FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
 	dw DiglettsCaveWildMons
 	dw VictoryRoad3FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw PokemonMansion2FWildMons
 	dw PokemonMansion3FWildMons
 	dw PokemonMansionB1FWildMons
@@ -221,33 +221,33 @@ WildDataPointers:
 	dw SafariZoneNorthWildMons
 	dw SafariZoneWestWildMons
 	dw SafariZoneCenterWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw CeruleanCave2FWildMons
 	dw CeruleanCaveB1FWildMons
 	dw CeruleanCave1FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	dw RockTunnelB1FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
+	dw NoMons
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -262,7 +262,7 @@ WildDataPointers:
         ; followed by 20 bytes:
         ; level, species (ten times)
 
-INCLUDE "data/wild/maps/nothing.asm"
+INCLUDE "data/wild/no_mons.asm"
 INCLUDE "data/wild/maps/Route1.asm"
 INCLUDE "data/wild/maps/Route2.asm"
 INCLUDE "data/wild/maps/Route22.asm"
@@ -301,7 +301,8 @@ INCLUDE "data/wild/maps/SafariZoneCenter.asm"
 INCLUDE "data/wild/maps/SafariZoneEast.asm"
 INCLUDE "data/wild/maps/SafariZoneNorth.asm"
 INCLUDE "data/wild/maps/SafariZoneWest.asm"
-INCLUDE "data/wild/maps/SeaRoutes.asm"
+INCLUDE "data/wild/maps/Route19.asm"
+INCLUDE "data/wild/maps/Route20.asm"
 INCLUDE "data/wild/maps/SeafoamIslands1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB2F.asm"
