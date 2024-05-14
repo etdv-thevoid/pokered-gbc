@@ -5,19 +5,22 @@ MACRO fishmons
 ENDM
 
 FishDataPointers:
-	fishmons PALLET_TOWN,         .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
+	fishmons PALLET_TOWN,         .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons VIRIDIAN_CITY,       .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
 	fishmons CERULEAN_CITY,       .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
-	fishmons VERMILION_CITY,      .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
+	fishmons VERMILION_CITY,      .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Horsea
 	fishmons CELADON_CITY,        .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
 	fishmons FUCHSIA_CITY,        .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
 	fishmons CINNABAR_ISLAND,     .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons ROUTE_4,             .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons ROUTE_6,             .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
-	fishmons ROUTE_10,            .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
-	fishmons ROUTE_11,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
-	fishmons ROUTE_12,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
-	fishmons ROUTE_13,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
+	fishmons ROUTE_10,            .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Dratini
+	fishmons ROUTE_11,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Horsea
+	fishmons ROUTE_12,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Horsea
+	fishmons ROUTE_13,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Horsea
+	fishmons ROUTE_14,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Horsea
+	fishmons ROUTE_15,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Horsea
+	fishmons ROUTE_16,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons ROUTE_17,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons ROUTE_18,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons ROUTE_19,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
@@ -28,8 +31,8 @@ FishDataPointers:
 	fishmons ROUTE_24,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons ROUTE_25,            .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons VERMILION_DOCK,      .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
-	fishmons SEAFOAM_ISLANDS_B3F, .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
-	fishmons SEAFOAM_ISLANDS_B4F, .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Super
+	fishmons SEAFOAM_ISLANDS_B3F, .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
+	fishmons SEAFOAM_ISLANDS_B4F, .OceanWater_Old,    .OceanWater_Good,    .OceanWater_Super
 	fishmons SAFARI_ZONE_EAST,    .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Dratini
 	fishmons SAFARI_ZONE_NORTH,   .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Dratini
 	fishmons SAFARI_ZONE_WEST,    .FreshWater_Old,    .FreshWater_Good,    .FreshWater_Dratini
