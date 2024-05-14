@@ -520,7 +520,7 @@ TextCommand_SOUND::
 	jr .loop
 
 .play
-	cp TX_SOUND_CRY_NIDORINA
+	cp TX_SOUND_CRY_PIKACHU
 	jr z, .pokemonCry
 	cp TX_SOUND_CRY_PIDGEOT
 	jr z, .pokemonCry
@@ -550,9 +550,9 @@ TextCommandSounds::
 	db TX_SOUND_GET_ITEM_2,           SFX_GET_ITEM_2
 	db TX_SOUND_GET_KEY_ITEM,         SFX_GET_KEY_ITEM
 	db TX_SOUND_DEX_PAGE_ADDED,       SFX_DEX_PAGE_ADDED
-	db TX_SOUND_CRY_NIDORINA,         NIDORINA ; used in OakSpeech
-	db TX_SOUND_CRY_PIDGEOT,          PIDGEOT  ; used in SaffronCityPidgeotText
-	db TX_SOUND_CRY_DEWGONG,          DEWGONG  ; unused
+	db TX_SOUND_CRY_PIKACHU,          PIKACHU ; used in OakSpeech
+	db TX_SOUND_CRY_PIDGEOT,          PIDGEOT ; used in SaffronCityPidgeotText
+	db TX_SOUND_CRY_DEWGONG,          DEWGONG ; unused
 
 TextCommand_DOTS::
 ; wait for button press or 30 frames while printing "…"s

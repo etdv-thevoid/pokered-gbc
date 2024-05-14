@@ -81,8 +81,8 @@ ENDC
 	call PrintText
 	call GBFadeOutToWhite
 	;call ClearScreen
-	call GetNidorinoPalID ; HAX
-	ld a, NIDORINO
+	call GetPikachuPalID ; HAX
+	ld a, PIKACHU
 	ld [wd0b5], a
 	ld [wcf91], a
 	call GetMonHeader
@@ -175,8 +175,7 @@ OakSpeechText1:
 	text_end
 OakSpeechText2:
 	text_far _OakSpeechText2A
-	; BUG: The cry played does not match the sprite displayed.
-	sound_cry_nidorina
+	sound_cry_pikachu
 	text_far _OakSpeechText2B
 	text_end
 IntroducePlayerText:

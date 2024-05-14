@@ -1,11 +1,11 @@
 ; Helper functions for oak intro
 
-GetNidorinoPalID:
+GetPikachuPalID:
 	call ClearScreen
 IF GEN_2_GRAPHICS
-	ld a, PAL_NIDORINO
+	ld a, PAL_PIKACHU
 ELSE
-	ld a, PAL_PURPLEMON
+	ld a, PAL_YELLOWMON
 ENDC
 	jr GotPalID
 

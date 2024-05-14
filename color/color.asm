@@ -361,11 +361,7 @@ SetPal_Pokedex:
 
 	farcall LoadSGBPalette
 
-IF DEF(_BLUE)
-	ld d, PAL_BLUEMON
-ELSE
 	ld d, PAL_REDMON
-ENDC
 	ld e, 1
 	farcall LoadSGBPalette
 
@@ -857,11 +853,7 @@ ENDC
 	farcall LoadSGBPalette
 
 	; Palette for border tiles
-IF DEF(_BLUE)
 	ld d, PAL_BLUEMON
-ELSE ; _RED
-	ld d, PAL_REDMON
-ENDC
 	ld e, 5
 	farcall LoadSGBPalette
 

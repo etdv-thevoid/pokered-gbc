@@ -193,11 +193,7 @@ AttackSpritePalettes:
 
 ; Not related to sprites, move this somewhere else?
 SlotPaletteMap:
-IF DEF(_RED)
-	INCBIN "color/data/slotpalettemap_red.bin"
-ELSE
 	INCBIN "color/data/slotpalettemap_blue.bin"
-ENDC
 
 SlotSpritePaletteMap:
 	; Seven
@@ -209,15 +205,11 @@ SlotSpritePaletteMap:
 	; Cherry
 	db ATK_PAL_RED,ATK_PAL_RED,ATK_PAL_RED,ATK_PAL_RED
 
-	; Fish (red), Jigglypuff (blue)
+	; Jigglypuff
 	db ATK_PAL_RED,ATK_PAL_RED,ATK_PAL_RED,ATK_PAL_RED
 
-	; Penguin/Bird/Something (red), Dugtrio (blue)
-	IF DEF(_RED)
-	db ATK_PAL_BLUE,ATK_PAL_BLUE,ATK_PAL_BLUE,ATK_PAL_BLUE
-	ELSE ; _BLUE
-	db ATK_PAL_BROWN,ATK_PAL_BROWN,ATK_PAL_BROWN,ATK_PAL_BROWN
-	ENDC
+	; Diglett
+	db ATK_PAL_YELLOW,ATK_PAL_YELLOW,ATK_PAL_YELLOW,ATK_PAL_YELLOW
 
-	; Rat
-	db ATK_PAL_BROWN,ATK_PAL_BROWN,ATK_PAL_BROWN,ATK_PAL_BROWN
+	; Poliwag
+	db ATK_PAL_RED,ATK_PAL_RED,ATK_PAL_RED,ATK_PAL_RED
