@@ -261,8 +261,13 @@ WildDataPointers:
         ; first byte is encounter rate
         ; followed by 20 bytes:
         ; level, species (ten times)
+NoMons:
+	def_grass_wildmons 0 ; encounter rate
+	end_grass_wildmons
 
-INCLUDE "data/wild/no_mons.asm"
+	def_water_wildmons 0 ; encounter rate
+	end_water_wildmons
+
 INCLUDE "data/wild/maps/Route1.asm"
 INCLUDE "data/wild/maps/Route2.asm"
 INCLUDE "data/wild/maps/Route22.asm"
